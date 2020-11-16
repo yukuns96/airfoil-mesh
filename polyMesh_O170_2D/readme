@@ -1,0 +1,13 @@
+NACA 0015
+blunt trailing edge
+
+170k cells
+2D Orid R=60*c
+512 grid points along airfoil
+y+: 1
+
+Method:
+growth rate 1.01: 200 steps
+growth rate 1.02: 200 steps
+growth rate 1.03: 200 steps
+growth rate 1.04: 200 steps
