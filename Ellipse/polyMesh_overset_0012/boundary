@@ -1,0 +1,30 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+
+3         
+(
+    foil
+    {
+        type wall;
+        nFaces 238;
+        startFace 51170;
+    }
+    frontAndBack
+    {
+        type empty;
+        nFaces 51408;
+        startFace 51408;
+    }
+    overset
+    {
+        type patch;
+        nFaces 238;
+        startFace 102816;
+    }
+)
